@@ -1,0 +1,62 @@
+[
+  {
+    "level": "error",
+    "message": "Something went wrong",
+    "resourceId": "server-123",
+    "timestamp": "2025-07-06T10:00:00Z",
+    "traceId": "abc-123",
+    "spanId": "span-001",
+    "commit": "abcd1234",
+    "metadata": {
+      "info": "test"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Memory usage exceeds 80%",
+    "resourceId": "app-002",
+    "timestamp": "2025-07-06T10:10:00Z",
+    "traceId": "trace-101",
+    "spanId": "span-101",
+    "commit": "commit002",
+    "metadata": {
+      "parentResourceId": "analytics"
+    }
+  },
+  {
+    "level": "info",
+    "message": "User signed in successfully",
+    "resourceId": "auth-003",
+    "timestamp": "2025-07-06T10:20:00Z",
+    "traceId": "trace-102",
+    "spanId": "span-102",
+    "commit": "commit003",
+    "metadata": {
+      "parentResourceId": "auth-service"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Fetching user data for userId=42",
+    "resourceId": "api-004",
+    "timestamp": "2025-07-06T10:30:00Z",
+    "traceId": "trace-103",
+    "spanId": "span-103",
+    "commit": "commit004",
+    "metadata": {
+      "parentResourceId": "user-service"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Payment gateway timeout",
+    "resourceId": "payment-005",
+    "timestamp": "2025-07-06T10:40:00Z",
+    "traceId": "trace-104",
+    "spanId": "span-104",
+    "commit": "commit005",
+    "metadata": {
+      "parentResourceId": "payment-service"
+    }
+  }
+]
