@@ -6,11 +6,9 @@ A full-stack developer tool that simulates a real-world logging system with API 
 
 ## 📚 Table of Contents
 
-- [Overview](#overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Usage](#usage)
 - [License](#license)
 
 ---
